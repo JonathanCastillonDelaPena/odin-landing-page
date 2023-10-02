@@ -8,11 +8,20 @@
 
 .hero-section {
   background: #1f2937;
-  padding: 1rem 8rem 10rem 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+
+header,
+.hero-content {
+  display: flex;
+  width: 80%;
 }
 
 header {
-  display: flex;
   justify-content: space-between;
   margin-bottom: 5rem;
 }
@@ -40,7 +49,7 @@ a {
 }
 
 .hero-content {
-  display: flex;
+  justify-content: space-between;
 }
 
 .hero-main-text {
@@ -64,7 +73,38 @@ button:hover {
 
 .hero-image {
   width: 480px;
-  height: auto;
+  height: 230px;
 }
 
 /* Hero Section - End */
+
+/* Images Section - Start */
+
+.images-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+}
+
+.images-title {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-bottom: 3rem;
+}
+
+.images-container {
+  display: flex;
+  width: 80%;
+}
+
+.image-card > img {
+  width: 240px;
+  height: 240px;
+  border: 4px solid #3882f6;
+  border-radius: 4px;
+}
+
+/* Images Section - End */
