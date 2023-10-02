@@ -108,3 +108,34 @@ button:hover {
 }
 
 /* Images Section - End */
+
+/* Quote Section - Start */
+
+.quote-section {
+  background: #e5e7eb;
+  padding: 6rem 0;
+}
+
+.quote-container {
+  margin: 0 auto;
+  width: 90ch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 1rem;
+}
+
+/* Quote Section - End */
