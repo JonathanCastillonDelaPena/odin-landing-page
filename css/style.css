@@ -58,13 +58,13 @@ a {
   color: #f9faf8;
 }
 
-button.sign-up {
+.sign-up {
     background-color: #3882f6;
     border-radius: 5px;
     color: white;
     border: none;
     padding: 0.5rem 2.5rem;
-    font-size: 24px;
+    font-size: large;
 }
 
 button:hover {
@@ -139,3 +139,46 @@ button:hover {
 }
 
 /* Quote Section - End */
+
+/* Action Section - Start */
+
+.action-section {
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container-blue {
+  background: #3882f6;
+  border-radius: 10px;
+  padding: 3rem 5rem;
+  display: flex;
+}
+
+.border-white {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.container-button {
+  display: flex;
+  align-items: flex-end;
+}
+
+.bottom-right {
+  margin: 0 0 0 5rem;
+}
+
+.header-color {
+  color: #f9faf8;
+}
+
+.subtext-color {
+  color: #e5e7eb;
+}
+
+.x-large-font {
+  font-size: x-large;
+}
+
+/* Action Section - End */
